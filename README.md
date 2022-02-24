@@ -32,15 +32,22 @@ Firefox       | Gecko
 
 ### ANATOMÍA DE UN DOCUMENTO  HTML Y SUS ELEMENTO
 ```seq
-    Elemento
+    ELEMENTO
 
     <h1> Soy un título </h1>
      |          |          | 
 Etiqueta    Contenido   Etiqueta
 de apertura             de cierre
 
+    ATRIBUTO
 
+    <>Etiqueta de apertura<>
+    <h1 class = "title">
+          |         | 
+       atributo   valor
 ```
+
+
 
 
 

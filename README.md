@@ -1,3 +1,4 @@
-#EJERCICIOS CURSO FRONTEND DEVELOPER
+# CURSO DE FRONTEND DEVELOPER
 
-Ejemplos de práctica curso de front-end, impartido por Platzi.
+## Impartido por Estefany Aguilar en Platzi
+

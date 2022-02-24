@@ -35,7 +35,7 @@ Pasar de archivos a pixeles en pantalla.
 4. Pinta las diferencias
 5. Toma las capas y las convierte en una imagen para mostrar en pantalla
 
-### ANATOMÍA DE UN DOCUMENTO HTML Y SUS ELEMENTO
+### ANATOMÍA DE UN DOCUMENTO HTML Y SUS ELEMENTOS
 
 ```seq
     ELEMENTO
@@ -63,4 +63,33 @@ de apertura             de cierre
     <li>Elemento 3</li>
   </ul>
 </section>
+```
+
+#### Elementos vacíos
+
+Son quellos que no tienen etiqueta de cierre.
+
+```html
+<img src="foto.jpg" alt="soyunafoto" />
+```
+
+####
+
+```html
+    <!Doctype html>
+    <html lang="en">
+        <head>
+            <meta name="utf-8">
+            ...
+            <title>Ejemplo de página</title>
+        </head>
+        <body>
+
+            <header>...
+            <nav>...
+            <section>...
+            <footer>...
+                
+        </body>
+    </html>
 ```

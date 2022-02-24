@@ -25,5 +25,6 @@ Firefox       | Gecko
 
 ```seq
 1 Pasa los archivos a objetos->2 Calcula el estilo correspondiente a cada Nodo Dom->3 Calcula las dimensiones de cada nodo y dónde va en la pantalla->4 Pinta las diferencias->5 Toma las capas y las convierte en una imagen para mostrar en pantalla
+```
 
 

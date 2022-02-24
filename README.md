@@ -73,23 +73,23 @@ Son quellos que no tienen etiqueta de cierre.
 <img src="foto.jpg" alt="soyunafoto" />
 ```
 
-####
+#### Estructura básica de un archivo .html
 
 ```html
-    <!Doctype html>
-    <html lang="en">
-        <head>
+    <!Doctype html>//<----
+    <html lang="en">//<----
+        <head>//<----
             <meta name="utf-8">
             ...
             <title>Ejemplo de página</title>
         </head>
-        <body>
+        <body>//<----
 
             <header>...
             <nav>...
             <section>...
             <footer>...
-                
+
         </body>
     </html>
 ```

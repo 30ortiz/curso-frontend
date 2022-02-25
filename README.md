@@ -76,6 +76,7 @@ Son quellos que no tienen etiqueta de cierre.
 ```
 
 #### Estructura básica de un archivo .html
+
 ```html
     <!Doctype html>//<----
     <html lang="en">//<----
@@ -94,6 +95,7 @@ Son quellos que no tienen etiqueta de cierre.
         </body>
     </html>
 ```
+
 ### HTML SEMÁNTICO
 
 > Blockquotes "Evitar el uso inecesario de <div>"
@@ -107,45 +109,70 @@ Etíquetas con significado
 #### <div> Más utilizados y comunes
 
 ##### Layout
+
 ```html
-    <header>
-    <nav>
+<header>
+  <nav>
     <section>
-    <article>
-    <aside>
-    <footer>
+      <article>
+        <aside>
+          <footer></footer>
+        </aside>
+      </article>
+    </section>
+  </nav>
+</header>
 ```
+
 ##### Enlaces
+
 ```html
-    <a>
+<a></a>
 ```
 
 ##### Textos
+
 ```html
-    <h1>...<h6>
+<h1>
+  ...
+  <h6>
     <p>
-    <span>
+      <span></span>
+    </p>
+  </h6>
+</h1>
 ```
+
 ##### Imágenes y video
+
 ```html
-    <img>
-    <svg>
-    <iframe>
-    <video>    
+<img />
+<svg>
+  <iframe>
+    <video></video>
+  </iframe>
+</svg>
 ```
+
 ##### Formularios
+
 ```html
-    <form>
-    <input>
-    <label>
-    <button>
+<form>
+  <input />
+  <label> <button></button></label>
+</form>
 ```
+
 ##### Listas
+
 ```html
-    <ul>
-    <li>
-    <ol>
+<ul>
+  <li>
+    <ol></ol>
+  </li>
+</ul>
 ```
+
 Más referencias HTML: <https://htmlreference.io/>
 
 ## CSS
@@ -153,15 +180,16 @@ Más referencias HTML: <https://htmlreference.io/>
 ### ANATOMÍA DE UNA DECLARACIÓN CSS
 
 Estructura básica
+
 ```html
-    <style>
-        h1 /* selector */
-        {
-            /* propiedad : valor*/
-                color   :   pink;
-        }
-        </style>
+<style>
+  h1 /* selector */ {
+    /* propiedad : valor*/
+    color: pink;
+  }
+</style>
 ```
+
 ### TIPO DE SELECTORES
 
 | Selector  | REFERENCIA       |
@@ -170,16 +198,16 @@ Estructura básica
 | Clase     | .elemento{...}   |
 | ID        | #id-del-elemento |
 | Atributo  | a[href:""]{...}  |
-| Universal | *{...}           |
+| Universal | \*{...}          |
 
 #### Selectores combinados
 
-|                     |            |
-| ---------           | ---------- |
-| Descendientes       | div p      |
-| Hijo directo        | div >  p   |
-| Elemento adyacente  | div + p    |
-| General de hermanos | div ~ p    |
+|                     |         |
+| ------------------- | ------- |
+| Descendientes       | div p   |
+| Hijo directo        | div > p |
+| Elemento adyacente  | div + p |
+| General de hermanos | div ~ p |
 
 ### Pseudoclases y pseudoelementos
 
@@ -187,22 +215,39 @@ Estructura básica
 
 Ejemplos:
 
-| Pseudoclases      | Pseudoelementos       |
-| ---------         | ----------------      |
-| :active           | ::after               |
-| :focus            | ::before              |
-| :hover            | ::first-letter        |
-| :nth-child(n)     | ::placeholder         |
+| Pseudoclases  | Pseudoelementos |
+| ------------- | --------------- |
+| :active       | ::after         |
+| :focus        | ::before        |
+| :hover        | ::first-letter  |
+| :nth-child(n) | ::placeholder   |
 
-Referencias:   
+Referencias:  
 [Links]https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
 [Links]https://css-tricks.com/pseudo-class-selectors/
 
 ### TIPOS DE DISPLAY MÁS UTILIZADOS
 
 Display:
+
 Es el tipo de visualización que tienen los elementos.
 
-> inline: Estos elementos son los que su caja mide exactamente lo mismo que su contenido. Estos elementos los podemos usar en textos y en lugar de que se agreguen en una nueva línea se agregaran justo al ladito del texto. ❗ Tienen como desventaja que no podemos ponerles márgenes ni tampoco podemos cambiar su tamaño.
->block: Estos elementos ocupan toda la pantalla, por lo que si quieres agregar otro elemento, este se agregará automáticamente abajo. No importa que tengas poco contenido, el elemento sí o sí va a ocupar toda la pantalla.
->inline-block: Esto mezcla lo mejor de ambos mundos. Con este display podemos tener tanto los beneficios de inline como de block, es decir, podemos tener elementos que no ocupen todo el ancho de la pantalla, sino que ocupen solamente lo que su contenido ocupa, pero también vamos a poder darle márgenes y podremos cambiar su tamaño 🤠.
+-> inline: Estos elementos son los que su caja mide exactamente lo mismo que su contenido. Estos elementos los podemos usar en textos y en lugar de que se agreguen en una nueva línea se agregaran justo al ladito del texto. ❗ Tienen como desventaja que no podemos ponerles márgenes ni tampoco podemos cambiar su tamaño.
+
+-> block: Estos elementos ocupan toda la pantalla, por lo que si quieres agregar otro elemento, este se agregará automáticamente abajo. No importa que tengas poco contenido, el elemento sí o sí va a ocupar toda la pantalla.
+
+-> inline-block: Esto mezcla lo mejor de ambos mundos. Con este display podemos tener tanto los beneficios de inline como de block, es decir, podemos tener elementos que no ocupen todo el ancho de la pantalla, sino que ocupen solamente lo que su contenido ocupa, pero también vamos a poder darle márgenes y podremos cambiar su tamaño 🤠.
+
+Grid y flexbox
+
+La diferencia básica entre CSS Grid Layout y CSS Flexbox Layout es que Flexbox se creó para diseños de una dimensión, en una fila o una columna. En cambio CSS Grid Layout se pensó para el diseño bidimensional, en varias filas y columnas al mismo tiempo
+
+[Links with title](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout "Más información Developer Mozilla")
+
+#### Flex
+
+La propiedad CSS flex es una propiedad resumida que indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible. Los elementos flexibles pueden ser estirados para utilizar el espacio disponible proporcional a su factor de crecimiento flexible o su factor de contracción flexible para evitar desbordamiento.
+[Links] https://developer.mozilla.org/es/docs/Web/CSS/flex
+
+Juego para practicar flexbox
+[Links]https://flexboxfroggy.com/#es

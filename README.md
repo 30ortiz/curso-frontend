@@ -115,16 +115,38 @@ Etíquetas con significado
     <aside>
     <footer>
 ```
+##### Enlaces
+```html
+    <a>
+```
+
 ##### Textos
 ```html
     <h1>...<h6>
     <p>
     <span>
 ```
-##### Textos
+##### Imágenes y video
 ```html
-    <h1>...<h6>
-    <p>
-    <span>
+    <img>
+    <svg>
+    <iframe>
+    <video>    
 ```
+##### Formularios
+```html
+    <form>
+    <input>
+    <label>
+    <button>
+```
+##### Listas
+```html
+    <ul>
+    <li>
+    <ol>
+```
+Referencia HTML
+`<link>` : <https://htmlreference.io/>
+
 

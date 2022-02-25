@@ -146,7 +146,6 @@ Etíquetas con significado
     <li>
     <ol>
 ```
-Referencia HTML
-`<link>` : <https://htmlreference.io/>
+Más referencias HTML: <https://htmlreference.io/>
 
 

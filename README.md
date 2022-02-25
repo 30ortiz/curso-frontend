@@ -148,4 +148,16 @@ Etíquetas con significado
 ```
 Más referencias HTML: <https://htmlreference.io/>
 
+### ANATOMÍA DE UNA DECLARACIÓN CSS
+
+Estructura básica
+```html
+    <style>
+        h1 /* selector */
+        {
+            /* propiedad : valor*/
+                color   :   pink;
+        }
+        </style>
+```
 

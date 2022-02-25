@@ -98,8 +98,6 @@ Son quellos que no tienen etiqueta de cierre.
 
 > Blockquotes "Evitar el uso inecesario de <div>"
 
-Paragraphs and Line Breaks
-
 Etíquetas con significado
 
 1. Ayuda al sitio a ser "accesible"
@@ -174,3 +172,8 @@ Estructura básica
 | Atributo  | a[href:""]{...}  |
 | Universal | *{...}
 
+#### Selectores combinados
+| Descendientes     | div p         |
+| Hijo directo     | div >  p   |
+| Elemento adyacente        | div + p |
+| General de hermanos | div ~ p |

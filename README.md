@@ -16,6 +16,8 @@ Hojas de estilo en cascada.
 
 > "Es el lenguaje que le da vida al esqueleto."
 
+## HTML
+
 ### MOTORES DE RENDERIZADO
 
 Pasar de archivos a pixeles en pantalla.
@@ -148,6 +150,8 @@ Etíquetas con significado
 ```
 Más referencias HTML: <https://htmlreference.io/>
 
+## CSS
+
 ### ANATOMÍA DE UNA DECLARACIÓN CSS
 
 Estructura básica
@@ -160,4 +164,13 @@ Estructura básica
         }
         </style>
 ```
+### TIPO DE SELECTORES
+
+| Selector  | REFERENCIA       |
+| --------- | ---------------- |
+| Tipo      | div{...}         |
+| Clase     | .elemento{...}   |
+| ID        | #id-del-elemento |
+| Atributo  | a[href:""]{...}  |
+| Universal | *{...}
 

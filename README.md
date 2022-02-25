@@ -74,7 +74,6 @@ Son quellos que no tienen etiqueta de cierre.
 ```
 
 #### Estructura básica de un archivo .html
-
 ```html
     <!Doctype html>//<----
     <html lang="en">//<----
@@ -93,3 +92,39 @@ Son quellos que no tienen etiqueta de cierre.
         </body>
     </html>
 ```
+### HTML SEMÁNTICO
+
+> Blockquotes "Evitar el uso inecesario de <div>"
+
+Paragraphs and Line Breaks
+
+Etíquetas con significado
+
+1. Ayuda al sitio a ser "accesible"
+2. Mejora posicionamiento SEO
+3. Código más claro
+
+#### <div> Más utilizados y comunes
+
+##### Layout
+```html
+    <header>
+    <nav>
+    <section>
+    <article>
+    <aside>
+    <footer>
+```
+##### Textos
+```html
+    <h1>...<h6>
+    <p>
+    <span>
+```
+##### Textos
+```html
+    <h1>...<h6>
+    <p>
+    <span>
+```
+

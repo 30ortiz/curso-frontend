@@ -170,13 +170,30 @@ Estructura básica
 | Clase     | .elemento{...}   |
 | ID        | #id-del-elemento |
 | Atributo  | a[href:""]{...}  |
-| Universal | *{...}
+| Universal | *{...}           |
 
 #### Selectores combinados
 
-|           |                   |
-| --------- | ---------------- |
-| Descendientes     | div p         |
-| Hijo directo     | div >  p   |
-| Elemento adyacente        | div + p |
-| General de hermanos | div ~ p |
+|                     |            |
+| ---------           | ---------- |
+| Descendientes       | div p      |
+| Hijo directo        | div >  p   |
+| Elemento adyacente  | div + p    |
+| General de hermanos | div ~ p    |
+
+### Pseudoclases y pseudoelementos
+
+> También podemos ver a las pseudoclases como estados de algún elemento (con el mouse encima, visitado, activo, etc.) y a los pseudoelementos como elementos que escribimos desde CSS, por ejemplo, el ::after y el ::before nos puedes funcionar como divs, como su nombre lo dice, son elementos, pero no necesariamente están escritos desde el HTML 👀.
+
+Ejemplos:
+
+| Pseudoclases      | Pseudoelementos       |
+| ---------         | ----------------      |
+| :active           | ::after               |
+| :focus            | ::before              |
+| :hover            | ::first-letter        |
+| :nth-child(n)     | ::placeholder         |
+
+Referencias:   
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+https://css-tricks.com/pseudo-class-selectors/

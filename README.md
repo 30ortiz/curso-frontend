@@ -173,6 +173,9 @@ Estructura básica
 | Universal | *{...}
 
 #### Selectores combinados
+
+|           |                   |
+| --------- | ---------------- |
 | Descendientes     | div p         |
 | Hijo directo     | div >  p   |
 | Elemento adyacente        | div + p |

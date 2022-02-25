@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectores 3</title>
+    <style type="text/css">
+      p {
+        background: rgba(0, 217, 255, 0.87);
+        text-align: center;
+        font-family: 'Arial';
+      }
+      p:hover {
+        background: orangered;
+        color: white;
+      }
+      div p:nth-last-child(2) {
+        background: rebeccapurple;
+      }
+      p::first-letter {
+        font-size: 2rem;
+        color: white;
+      }
+      p::before {
+        content: "🌠";
+        padding-right: 50px;
+      }
+      p::after {
+        content: "💎";
+        font-size: 2rem; 
+        border-color: black;
+        padding-left: 50px;
+      }
+      ::placeholder{
+          color: cornflowerblue;
+      }
+
+    </style>
+  </head>
+  <body>
+    <p>Hola Mundo</p>
+    <div>
+      <p>Hola!</p>
+      <p>Soy</p>
+      <p>@30ortiz</p>
+      <input type="text" placeholder="¿Quién eres?"/>
+    </div>
+  </body>
+</html>

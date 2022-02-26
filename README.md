@@ -247,7 +247,11 @@ La diferencia básica entre CSS Grid Layout y CSS Flexbox Layout es que Flexbox 
 #### Flex
 
 La propiedad CSS flex es una propiedad resumida que indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible. Los elementos flexibles pueden ser estirados para utilizar el espacio disponible proporcional a su factor de crecimiento flexible o su factor de contracción flexible para evitar desbordamiento.
-[Links] https://developer.mozilla.org/es/docs/Web/CSS/flex
+ https://developer.mozilla.org/es/docs/Web/CSS/flex
 
 Juego para practicar flexbox
-[Links]https://flexboxfroggy.com/#es
+https://flexboxfroggy.com/#es
+
+### MODELO DE CAJA
+
+![](https://3con14.biz/css/_data/04_Modelo_cajas/caja.png)

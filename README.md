@@ -265,7 +265,7 @@ Hay dos elementos bloque adyacentes
   <p>luna</p>
 ```
 
-No suce cuando:
+No sucede cuando:
 Flexbox, Grid y elementos que no sea bloque.
 ```html
   <div> /*display:flex*/

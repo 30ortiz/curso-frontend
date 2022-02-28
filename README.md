@@ -288,5 +288,5 @@ Nos ayuda a ubicar los elementos.
 
 ### PROPIEDADES Y VALORES DE CSS MÁS USADOS 
 
-[CSS REFERENCIAS]: https://cssreference.io/
+[CSS REFERENCIAS](https://cssreference.io/)
 

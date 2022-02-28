@@ -284,4 +284,9 @@ Nos ayuda a ubicar los elementos.
 - Inherital
 
 #### Z-INDEX y el contexto de apilamiento
-![]https://i.imgur.com/SyoYrtm.png
+![](https://i.imgur.com/SyoYrtm.png)
+
+### PROPIEDADES Y VALORES DE CSS MÁS USADOS 
+
+[CSS REFERENCIAS]:https://cssreference.io/
+

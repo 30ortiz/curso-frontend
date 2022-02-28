@@ -255,3 +255,21 @@ https://flexboxfroggy.com/#es
 ### MODELO DE CAJA
 
 ![](https://3con14.biz/css/_data/04_Modelo_cajas/caja.png)
+
+#### Colapso de márgenes
+
+Sucede cuando:
+Hay dos elementos bloque adyacentes
+```html
+  <p>sol</p>
+  <p>luna</p>
+```
+
+No suce cuando:
+Flexbox, Grid y elementos que no sea bloque.
+```html
+  <div> /*display:flex*/
+    <p>mar</p>
+    <p>aire</p>
+  </div>
+```

@@ -1,7 +1,5 @@
 # CURSO DE FRONTEND DEVELOPER
 
-[![Build Status](https://app.travis-ci.com/30ortiz/curso-frontend.svg?branch=main)](https://app.travis-ci.com/30ortiz/curso-frontend)
-
 ### ¿Qué es HTML y CSS?
 
 #### HTML
@@ -276,5 +274,13 @@ Flexbox, Grid y elementos que no sea bloque.
 ### POSICIONAMIENTO
 
 Nos ayuda a ubicar los elementos.
+
+- Relative
+- Absolute
+- Fixed
+- Sticky
+- Static
+- Initial
+- Inherital
 
 

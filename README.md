@@ -283,4 +283,5 @@ Nos ayuda a ubicar los elementos.
 - Initial
 - Inherital
 
-
+#### Z-INDEX y el contexto de apilamiento
+![]https://i.imgur.com/SyoYrtm.png

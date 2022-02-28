@@ -1,6 +1,6 @@
 # CURSO DE FRONTEND DEVELOPER
 
-#### Impartido por Estefany Aguilar en Platzi
+[![Build Status](https://app.travis-ci.com/30ortiz/curso-frontend.svg?branch=main)](https://app.travis-ci.com/30ortiz/curso-frontend)
 
 ### ¿Qué es HTML y CSS?
 
@@ -273,3 +273,8 @@ Flexbox, Grid y elementos que no sea bloque.
     <p>aire</p>
   </div>
 ```
+### POSICIONAMIENTO
+
+Nos ayuda a ubicar los elementos.
+
+

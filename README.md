@@ -190,7 +190,7 @@ Estructura básica
 
 ### TIPO DE SELECTORES
 
-| Selector  | REFERENCIA       |
+| Selector  | Referencia       |
 | --------- | ---------------- |
 | Tipo      | div{...}         |
 | Clase     | .elemento{...}   |
@@ -288,5 +288,49 @@ Nos ayuda a ubicar los elementos.
 
 ### PROPIEDADES Y VALORES DE CSS MÁS USADOS 
 
++ Layout
+  + display
+
++ Textos
+  + font-size
+  + font-weight
+  + font-family
+  + text-align
+  + color
+
++ Modelo de caja
+  + margin
+  + padding
+  + border
+
++ Tamaños
+  + width
+  + height
+
++ Colores de fondo
+  + background
+  + background-color
+
 [CSS REFERENCIAS](https://cssreference.io/)
 
+### UNIDADES DE MEDIDA
+
+| Absolutas     | 
+| ------------- | 
+| px            | 
+| pc            | 
+| cm            | 
+| pt            |
+| in            |
+| mm            | 
+
+| Relativos | 
+| ----------| 
+| rem       | 
+| em        | 
+| vw        | 
+| vh        |
+| vmin      | 
+| vmax      |
+| ex        |  
+| ch        |

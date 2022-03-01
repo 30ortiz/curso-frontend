@@ -390,6 +390,11 @@ graph LR
 A[Bloque]-->B[Elemento]-->C[Modificador]
 ```
 
+### SMACSS
+```mermaid
+graph LR
+A[BASE]-->B[LAYOUT]-->C[MODULE]-->D[STATE]-->E[THEME]
+```
 [OOCSS](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/#top)
 [BEM](https://en.bem.info/methodology/)
 [SMACSS](https://medium.com/@GreenXIII/organize-your-css-smacss-way-89c087db5092)

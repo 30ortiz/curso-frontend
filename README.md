@@ -347,4 +347,28 @@ Que el sitio se vea bien en varias medidas de pantalla.
     }
   }
 ```
+### ¿Qué son las arquitecturas CSS? ¿Para qué sirven?
+
+Objetivos 
++ Ser predecible
+  Escribir reglas claras.
+
++ Reutilizable
+  No escribir código redundante.
+
++ Mantenible
+  Que sea fácil de leer y adaptable a los estándares.
+
++ Escalable
+  Que pueda crecer sin afectar el rendimiento
+
+Buenas prácticas
++ Lineamientos
++ Documentación
++ Estándares
++ Componentes
+
+
+
+
 

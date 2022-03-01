@@ -389,16 +389,24 @@ Buenas prácticas
 graph LR
 A[Bloque]-->B[Elemento]-->C[Modificador]
 ```
-
-### SMACSS
+#### SMACSS
 ```mermaid
 graph LR
 A[BASE]-->B[LAYOUT]-->C[MODULE]-->D[STATE]-->E[THEME]
 ```
+
+
+
+
+
 [OOCSS](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/#top)
+
 [BEM](https://en.bem.info/methodology/)
+
 [SMACSS](https://medium.com/@GreenXIII/organize-your-css-smacss-way-89c087db5092)
+
 [ITCS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
+
 [ATOMICDESIGN](https://bradfrost.com/blog/post/atomic-web-design/) 
 
 

@@ -408,6 +408,14 @@ A[BASE]-->B[LAYOUT]-->C[MODULE]-->D[STATE]-->E[THEME]
 
 [Referencia](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 
+
+####  Atomic design
+
+```mermaid
+graph LR
+A[Átomos]-->B[Moléculas]-->C[Organismos]-->D[Template]-->E[Página]
+```
+
 [Referencia](https://bradfrost.com/blog/post/atomic-web-design/) 
 
 

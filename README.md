@@ -384,14 +384,14 @@ Buenas prácticas
       </tbody>    
     </table>
 
-[OOCSS](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/#top)
+[Referencia](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/#top)
 
 #### BEM
 ```mermaid
 graph LR
 A[Bloque]-->B[Elemento]-->C[Modificador]
 ```
-[BEM](https://en.bem.info/methodology/)
+[Referencia](https://en.bem.info/methodology/)
 
 
 #### SMACSS
@@ -400,20 +400,19 @@ graph LR
 A[BASE]-->B[LAYOUT]-->C[MODULE]-->D[STATE]-->E[THEME]
 ```
 
-[SMACSS](https://medium.com/@GreenXIII/organize-your-css-smacss-way-89c087db5092)
+[Referencia](https://medium.com/@GreenXIII/organize-your-css-smacss-way-89c087db5092)
+
+#### ITCSS
 
 
+<svg height="200" width="200">
+  <polygon points="100,10 190,190 10,190"
+  stroke="black" stroke-width=2 fill="white"/> 
+</svg> 
 
+[Referencia](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 
-
-
-
-
-
-
-[ITCS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
-
-[ATOMICDESIGN](https://bradfrost.com/blog/post/atomic-web-design/) 
+[Referencia](https://bradfrost.com/blog/post/atomic-web-design/) 
 
 
 

@@ -373,7 +373,7 @@ Buenas prácticas
 OOCSS
 
 | Principales    |
-|----------------|
+|----------------|-----------|
 | Separar la estructura y la piel OBJETO(BASE)->MÁSCARA(ELEMENTOS) | Separar el contenedor del contenido|
 
 BEM

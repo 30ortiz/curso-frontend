@@ -334,3 +334,17 @@ Nos ayuda a ubicar los elementos.
 | vmax      |
 | ex        |  
 | ch        |
+
+### DISEÑO RESPONSIVO
+
+Que el sitio se vea bien en varias medidas de pantalla.
+
+#### Media queries
+```html
+  @media(max-width:375px){
+    .clase-que-cambiar-por-tamano{
+      propiedad:valor
+    }
+  }
+```
+

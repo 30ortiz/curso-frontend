@@ -404,7 +404,7 @@ A[BASE]-->B[LAYOUT]-->C[MODULE]-->D[STATE]-->E[THEME]
 
 #### ITCSS
 
-<img src="https://res.cloudinary.com/dngcu1bvt/image/upload/v1646163586/Untitled_5_j3ww9b.svg" width="350">
+<img src="https://res.cloudinary.com/dngcu1bvt/image/upload/v1646163586/Untitled_5_j3ww9b.svg" width="450" style="text-align:center">
 
 [Referencia](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 

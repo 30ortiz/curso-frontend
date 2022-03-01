@@ -376,6 +376,10 @@ OOCSS
 |----------------|
 | Separar la estructura y la piel OBJETO(BASE)->MÁSCARA(ELEMENTOS) | Separar el contenedor del contenido|
 
+BEM
+```sequence
+Bloque->Elemento->Modificador
+```
 
 [OOCSS](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/#top)
 [BEM](https://en.bem.info/methodology/)

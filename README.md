@@ -378,7 +378,8 @@ OOCSS
 
 BEM
 ```mermaid
-Bloque->>Elemento->>Modificador
+graph LR
+A[Bloque]-->B[Elemento]-->C[Modificador]
 ```
 
 [OOCSS](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/#top)

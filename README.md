@@ -368,6 +368,21 @@ Buenas prácticas
 + Estándares
 + Componentes
 
+### OOCSS, BEM, SMACSS, ITCSS Y ATOMIC DESIGN
+
+OOCSS
+
+| Principales    |
+|----------------|
+| Separar la estructura y la piel OBJETO(BASE)->MÁSCARA(ELEMENTOS) | Separar el contenedor del contenido|
+
+
+[OOCSS](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/#top)
+[BEM](https://en.bem.info/methodology/)
+[SMACSS](https://medium.com/@GreenXIII/organize-your-css-smacss-way-89c087db5092)
+[ITCS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
+[ATOMICDESIGN](https://bradfrost.com/blog/post/atomic-web-design/) 
+
 
 
 

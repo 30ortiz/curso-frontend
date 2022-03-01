@@ -370,8 +370,7 @@ Buenas prácticas
 
 ### OOCSS, BEM, SMACSS, ITCSS Y ATOMIC DESIGN
 
-OOCSS
-
+#### OOCSS
   <table>
     <thead>
     <tr>
@@ -385,9 +384,7 @@ OOCSS
       </tbody>    
     </table>
 
-
-
-BEM
+#### BEM
 ```mermaid
 graph LR
 A[Bloque]-->B[Elemento]-->C[Modificador]

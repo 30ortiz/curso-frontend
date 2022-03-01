@@ -372,9 +372,20 @@ Buenas prácticas
 
 OOCSS
 
-| : Principales    :|||
-|----------------|-----------|
-| Separar la estructura y la piel OBJETO(BASE)->MÁSCARA(ELEMENTOS) | Separar el contenedor del contenido|
+  <table>
+    <thead>
+    <tr>
+      <th colspan="2">Principales</th>
+    </thead>
+      <tbody>
+        <tr>
+          <td>  Separar la estructura y la piel: OBJETO ----> MÁSCARA </td>
+          <td>  Separar el contenedor del contenido </td>
+        </tr>
+      </tbody>    
+    </table>
+
+
 
 BEM
 ```mermaid

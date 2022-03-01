@@ -404,11 +404,7 @@ A[BASE]-->B[LAYOUT]-->C[MODULE]-->D[STATE]-->E[THEME]
 
 #### ITCSS
 
-
-<svg height="200" width="200">
-  <polygon points="100,10 190,190 10,190"
-  stroke="black" stroke-width=2 fill="white"/> 
-</svg> 
+![](https://res.cloudinary.com/dngcu1bvt/image/upload/v1646163381/Untitled_xqsrjw.svg)
 
 [Referencia](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 
